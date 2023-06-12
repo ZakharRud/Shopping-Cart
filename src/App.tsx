@@ -10,7 +10,7 @@ function App() {
   return (
   <ShoppingCartProvider>
   <Navbar/>
-  <Container className='mb-14'>
+  <Container className='mb-4'>
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/store' element={<Store/>}/>
